@@ -54,54 +54,7 @@ const Sidebar = () => {
       id: "1",
       name: "home",
       icon: <GoHome />,
-    }, {
-      id: "1",
-      name: "home",
-      icon: <GoHome />,
-    },
-    {
-      id: "1",
-      name: "home",
-      icon: <GoHome />,
-    },
-    {
-      id: "1",
-      name: "home",
-      icon: <GoHome />,
-    },
-    {
-      id: "1",
-      name: "home",
-      icon: <GoHome />,
-    },
-    {
-      id: "1",
-      name: "home",
-      icon: <GoHome />,
-    },
-    {
-      id: "1",
-      name: "home",
-      icon: <GoHome />,
-    }, {
-      id: "1",
-      name: "home",
-      icon: <GoHome />,
-    },
-    {
-      id: "1",
-      name: "home",
-      icon: <GoHome />,
-    }, {
-      id: "1",
-      name: "home",
-      icon: <GoHome />,
-    },
-    {
-      id: "1",
-      name: "home",
-      icon: <GoHome />,
-    },
+    }
    
   ];
   return (
@@ -117,6 +70,7 @@ const Sidebar = () => {
             );
           })}
         </div>
+        <div className="border bottom-100-black"></div>
         <div className="space-y-3 items-center">
           {sideitem2.map((item) => {
             return (
